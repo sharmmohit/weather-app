@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .location-box {
+    margin-top: 20px;
+  }
+  
+  .location {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .date {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .weather-box {
+    margin-top: 30px;
+  }
+  
+  .temp {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .weather {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-top: 5px;
+  }
+  
+  h1 {
+    display: none; /* Hides the "Weather" heading */
+  }
+/* ... existing styles */
+
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #1da1f2;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  footer a svg {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
